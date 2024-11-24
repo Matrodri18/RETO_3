@@ -16,4 +16,4 @@ En este caso **i=2**.
 
  [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23]
  
-### 5. Repetimos los pasos **2**, **3** y **4** hasta que **i>√n **
+### 5. Repetimos los pasos **2**, **3** y **4** hasta que **i > √n**
