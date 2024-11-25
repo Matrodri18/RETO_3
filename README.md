@@ -31,3 +31,5 @@ En este caso **i=2**.
 
 
 ## La lista obtenida en el paso 6 contiene a los números primos desde **2** hasta **n**.
+
+##"PSEUCODE"
