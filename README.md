@@ -20,7 +20,7 @@ En este caso **i=2**.
  *[3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23]*
  
 
-### 5. Repetimos los pasos **2**, **3** y **4** hasta que **i > **n**0.5**
+### 5. Repetimos los pasos **2**, **3** y **4** hasta que **i > **n\sqrt**
 
 
 ### 6. Recopilamos los **i** utilizados junto a la ultima lista del **paso 4**. 
@@ -30,4 +30,4 @@ En este caso **i=2**.
 ### 7. Finalizar
 
 
-## La lista obtenida en el paso 6 contiene a los números primos desde **2** hasta **n\sqrt**.
+## La lista obtenida en el paso 6 contiene a los números primos desde **2** hasta **n**.
