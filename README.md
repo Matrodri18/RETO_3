@@ -61,7 +61,7 @@ flowchart TD
     I --> J[como resultado obtenemos los numeros 2,3,5,7,11,13,17,19,23]
     J --> L(fin algoritmo)
 ```
-#### Se da por finalizado el reto 3
+#### Se da por finalizado el reto 3 <3
 
 
 
