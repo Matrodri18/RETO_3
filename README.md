@@ -41,11 +41,24 @@ i = n
 # i toma el primer valor del rango de n 
 i = 2
 #eliminamos a los multiplos de i hasta n (exepto los i utilizados anteriormente)
-n' not in i*x
+ escribir("no_es_primo") si i*x = n' 
 #se repiten los pasos 2, 3 y 4 hasta que i >= n^0.5
-#si i >= n^0.5 se recpilan los numeros que no se han eliminado, estos son numeros primos
+#si i >= n^0.5 se recpilan los numeros que no se han eliminado
+escribir ("es_primo") 
 Fin
 FinAlgoritmo
+```
+### Diagrama de flujo
+```mermaid
+flowchart TD
+    A[Inicio] --> B(n = rango 2-24) --> c(x = numeros naturales) --> D(iniciamos con n = 2)
+    D--> E{todos los multiplos de 2 en n:    n' = 2 * x}
+    E -->|si n' es multiplo| F[n no es primo]
+    E -->|si n' no es multiplo| G[n es primo]
+    F --> H[continuamos con el siguiente numero primo] 
+ G --> H[continuamos con el siguiente numero primo hasta n <= √n] 
+    H --> I[como resultado obtenemos los numeros 2,3,5,7,11,13,17,19,23]
+    I --> L(fin algoritmo)
 ```
 
 
