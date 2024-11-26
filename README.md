@@ -56,7 +56,7 @@ flowchart TD
     E -->|si n' es multiplo| F[n no es primo]
     E -->|si n' no es multiplo| G[n es primo]
     F --> H[continuamos con el siguiente numero primo] 
- G --> H[continuamos con el siguiente numero primo hasta n <= √n] 
+ G --> H[continuamos con el siguiente numero primo hasta n > √n] 
     H --> I[como resultado obtenemos los numeros 2,3,5,7,11,13,17,19,23]
     I --> L(fin algoritmo)
 ```
