@@ -43,6 +43,13 @@ i = 2
 #eliminamos a los multiplos de i hasta n (exepto los i utilizados anteriormente)
 n' not in i*x
 #se repiten los pasos 2, 3 y 4 hasta que i >= n^0.5
+#si i >= n^0.5 se recpilan los numeros que no se han eliminado, estos son numeros primos
+Fin
+FinAlgoritmo
+```
+
+
+
 
 
 
